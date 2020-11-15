@@ -1,19 +1,23 @@
 $(document).ready(function(){
   //change red
   console.log("Hello");
-  $("change-red").on("click", function(){
-
-  });
+  // $("change-red").on("click", function(){
+  //
+  // });
   $(document).on("click", "#change-red", function(){
-    $("btn btn-danger btn-block").css("background-color", "green");
+    console.log("red");
+    // $("btn btn-danger btn-block").css("background-color", "green");
+    $(this).css("background-color", "green");
   });
   //change green
   $(document).on("click", "#change-green", function(){
-    $("btn btn-success btn-block").css("background-color", "red");
+    console.log("green");
+    $(this).css("background-color", "blue");
   });
   //change blue
-  $(document).on("click", "change-blue", function(){
-    $("btn btn-primary btn-block").css("background-color", "red");
+  $(document).on("click", "#change-blue", function(){
+    console.log("blue");
+    $(this).css("background-color", "red");
   });
 //make big
 //   "make-big"

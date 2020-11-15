@@ -1,7 +1,7 @@
 $(document).ready(function(){
   //change red
   console.log("Hello");
-  $("change-red").on(click, function(){
+  $("change-red").on("click", function(){
 
   });
   $(document).on("click", "#change-red", function(){
